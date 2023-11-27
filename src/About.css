@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.articals{
+    cursor: pointer;
+    margin: 20px;
+width: 350px;
+height: 400px;
+}
+.articals:hover img{
+    transition: 0.4s all ease-in;
+    transform: scale(1.1);
+}
+.articals img{
+    border-radius: 12px;
+    width: 350px;
+    height: 200px;
+}
+.articals .title{
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.4rem;
+    margin: 5px 0px;
+}
+.articals .small{
+    font-size: 0.8rem;
+    color: rgb(207, 207, 207);
+}
+.articals p{
+    
+    font-weight:bold;
+}
